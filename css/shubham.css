@@ -1,4 +1,97 @@
 @media screen and (max-width: 1200px) {
+  .header {
+    padding: 15px 20px 5px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  .srchBar {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px 0 20px;
+    position: relative;
+  }
+
+  .srchBar p input {
+    border: none;
+    padding: 8px 20px;
+    min-width: 300px;
+    border-radius: 4px 0 0 4px;
+  }
+
+  .nav {
+    box-shadow: 0 15px 40px -20px rgba(40, 44, 63, 0.35);
+    display: flex;
+    justify-content: center;
+  }
+
+  .lyrLft {
+    width: 300px;
+    padding: 40px 0 0px 0;
+    text-align: center;
+  }
+  .pad20.pall {
+    padding: 0px !important;
+  }
+
+  .pad30.pall {
+    padding: 20px !important;
+  }
+  .main {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+  }
+  .mar0.mall {
+    margin: 0px !important;
+    padding-left: 20px !important;
+  }
+
+  .usp a {
+    margin: 0 10px;
+  }
+
+  .usp a:last-child {
+    margin: auto;
+  }
+
+  .pCard {
+    padding: 15px;
+    border: 1px solid #dcdada;
+    border-radius: 4px;
+    margin: 0 9px 0 0;
+  }
+
+  /* .pad0.pall {
+    padding-left: 0;
+  } */
+
+  .main_ctnr {
+    margin: 0 auto;
+    padding-right: 0;
+    padding-left: 0%;
+    width: 1100px;
+  }
+
+  .list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ourProd {
+    margin: 0 10px 20px 10px;
+  }
+
+  .main {
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .slick-dotted.slick-slider {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 1100px) {
