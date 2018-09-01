@@ -1,5 +1,250 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 720px) {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .logo {
+    display: block;
+    flex: 1;
+  }
+
+  .searchWrp {
+    flex: 4;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .srchBar {
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+  .srchBar p input {
+    border: none;
+    width: 593px;
+  }
+
+  .header .menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #categorytop {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    height: auto;
+    overflow-x: auto;
+  }
+
+  .nav li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 183px;
+    /* width: 100%; */
+    /* height: auto; */
+    flex: 0 0 auto;
+  }
+
+  .topContent {
+    margin-top: 171px !important;
+  }
+  .slider .slick-arrow {
+    position: absolute;
+    z-index: 2;
+    top: 107px;
+  }
+
+  .slider .slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    height: 203px;
+  }
+
+  .main_ctnr {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 0 0;
+  }
+  .usp {
+    width: 650px;
+    height: 178px;
+    text-align: center;
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 25px 0px 0px 0px;
+  }
+
+  .usp a,
+  .usp a:last-child {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .pCard,
+  .pCard:last-child {
+    padding: 20px;
+    border: 1px solid #dcdada;
+    border-radius: 4px;
+    margin: 20px 0px 0 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .pCard a img {
+    height: 220px;
+  }
+
+  #explorecat {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .ourProd {
+    width: 100%;
+    min-height: 250px;
+    margin-right: 0;
+  }
+
+  .main {
+    width: 670px;
+  }
+
+  .nwArvl .slick-track {
+    height: 470px;
+  }
+
+  .blg_cmpnt {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .blg_cmpnt p {
+    width: 100%;
+    height: auto;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0px;
+  }
+
+  .blg_cmpnt p img {
+    width: 100%;
+    height: auto;
+  }
+
+  .bigTag {
+    margin: 0 15px 15px 0;
+  }
+  .bgOvrly {
+    top: 189px;
+  }
+
+  .ourProd strong {
+    margin: 203px 0 0 0;
+  }
+
+  .op_chicken {
+    background-size: cover;
+  }
+
+  .dspTable {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .lyrLft img {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 500px) {
+  .usp {
+    width: 450px;
+    height: 317px;
+    text-align: center;
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 25px 0px 0px 0px;
+  }
+
+  .usp a,
+  .usp a:last-child {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+
+  .srchBar p input {
+    border: none;
+    width: calc(100% - 85px);
+    min-width: 0px;
+  }
+
+  .searchWrp {
+    flex: 1;
+  }
+
+  .slider .slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    height: 143px;
+  }
+
+  .slider .slick-arrow {
+    position: absolute;
+    z-index: 2;
+    top: 71px;
+  }
+
+  .main {
+    width: 95%;
+  }
+
+  .pad20.pall {
+    padding: 0px !important;
+  }
+
+  .media {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .media a {
+    margin: 0;
+  }
+
+  .topContent {
+    margin-top: 151px !important;
+  }
+
+  .bgOvrly {
+    top: 189;
+  }
+
+  .boRds6lft {
+    width: 393px;
+  }
+
+  .pCard a img {
+    height: 100%;
+  }
+
+  .pCard,
+  .pCard:last-child {
+    width: 87%;
+  }
 }
