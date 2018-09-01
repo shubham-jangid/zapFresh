@@ -12,7 +12,204 @@
 </head>
 
 <body>
-    <div w3-include-html="header.html"></div>
+    <div w3-include-html="header.html">
+
+        <!-- Log IN Sign Up Layer -->
+        <div class="modalpopup modalPopupLayerChildren noshow" id="loginpop">
+            <div class="modalbody">
+                <a href="#" class="cls modalPopupLayerParent" data-target="loginpop" data-showoverlay="true">x</a>
+                <div class="dspTable wFull">
+                    <div class="dspTblCell vaT pad20 pall bgltgrey boRds6lft">
+                        <div class="lyrLft">
+                            <img src="images/layer-1.png" />
+                            <p>
+                                Get
+                                <strong>20% Discount</strong> on your
+                                <strong>First Order</strong> and
+                                <strong>20% Cashback</strong>
+                                on your
+                                <strong>Second Order</strong>.
+                            </p>
+                            <div class="clear20"></div>
+                            <p>
+                                <img src="images/sample_carousel.png" />
+                            </p>
+                        </div>
+                    </div>
+                    <div class="dspTblCell vaT" style="width: 400px;">
+                        <!-- Login -->
+                        <div class="pad30 pall show " id="signInModalContr">
+                            <h2>Login</h2>
+                            <div class="form-group">
+                                <label>Enter Mobile Number or Email ID</label>
+                                <input type="text" class="form-input tx48" id="loginEmailId" placeholder="Enter Mobile Number or Email ID" />
+                                <p class="error noshow" id="signInEmailError"></p>
+                            </div>
+                            <div class="form-group">
+                                <label>Enter Password</label>
+                                <a href="#" class="fR csrPtr f12">Forgot Password?</a>
+                                <input type="password" class="form-input tx48" id="loginPassword" placeholder="Enter Password" />
+                                <p class="error noshow" id="signInPasswordError"></p>
+                            </div>
+                            <div class="checkFamily dsplNBlock">
+                                <input type="checkbox" />
+                                <i></i>
+                                <em>Remember me</em>
+                            </div>
+                            <div class="clear30"></div>
+                            <p>
+                                <button type="button" class="btn" id="loginNowBtn">Login Now</button>
+                            </p>
+                            <div class="clear30"></div>
+                            <p>
+                                New to ZappFresh?
+                                <a href="#" id="showSignup">Sign Up</a>
+                            </p>
+                        </div>
+                        <!-- Login -->
+                        <!-- Sign Up -->
+                        <div class="pad30 pall noshow" id="signUpModalContr">
+                            <h2>Sign Up</h2>
+                            <div class="form-group">
+                                <label>Enter Email ID</label>
+                                <input type="text" id="signUpemailId" class="form-input tx48" placeholder="Enter Email ID" />
+                            </div>
+                            <div class="form-group">
+                                <label>Enter Mobile Number</label>
+                                <input type="text" id="signUpMobNo" class="form-input tx48" placeholder="Enter Mobile Number" />
+                            </div>
+                            <div class="form-group">
+                                <label>Enter Password</label>
+                                <input type="password" id="signUpPassword" class="form-input tx48" placeholder="Enter Password" />
+                            </div>
+                            <div class="clear30"></div>
+                            <p>
+                                <button type="button" class="btn" id="signUpFormsubbtn">Sign Up</button>
+                            </p>
+                            <div class="clear30"></div>
+                            <p>
+                                Already on ZappFresh?
+                                <a href="#" id="showLogin">Login</a>
+                            </p>
+                        </div>
+                        <!-- Signup -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-overlay noshow" id="modal-overlay-id"></div>
+        <!-- Log IN Sign Up Layer
+
+<!- My Cart Layer -->
+        <div class="modalpopup modalPopupLayerChildren noshow" id="cartlist">
+            <div class="modalbody">
+                <a href="#" class="cls modalPopupLayerParent" data-target="cartlist">x</a>
+                <div class="pad30 pall">
+                    <div class="" style="height: 360px; overflow: auto;" id="addedCartItemsList">
+
+                    </div>
+                    <div class="dspTable wFull crtLst mar30 mtop">
+                        <div class="dspTblCell vaT">
+                            <p class="tgrey">Total Payable Amount:</p>
+                            <p class="tbold f16">&#8377;
+                                <span id="totalPayableAmount"></span>
+                            </p>
+                        </div>
+                        <div class="dspTblCell vaT tright">
+                            <button class="btn" id="checkoutBtn">Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+        <!-- My Cart Layer -->
+
+        <!-- Header -->
+        <a href="#" class="green_strip">1st Order 25% Discount | 2nd Order 20% Cashback | 3rd order 20% Cashback</a>
+        <div class="hdrWrpr">
+            <div class="header">
+                <a href="index.html" class="logo"></a>
+                <div class="searchWrp">
+                    <a href="#" class="location modalPopupLayerParent" data-target="cityList">
+                        <span>Ghaziabad, Old Patel Nagar</span>
+                        <i class="i_location"></i>
+                    </a>
+
+                    <div class="sdMnu modalPopupLayerChildren noshow" id="cityList">
+                        <ul>
+                            <li>
+                                <a href="#">New Delhi</a>
+                            </li>
+                            <li>
+                                <a href="#">Gurgaon</a>
+                            </li>
+                            <li>
+                                <a href="#">Noida</a>
+                            </li>
+                            <li>
+                                <a href="#">Ghaziabad</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="srchBar">
+                    <p>
+                        <input type="text" placeholder="Search for your favourite product" class="modalPopupLayerParent" data-target="searchListPop"
+                        />
+                        <span>
+                            <button></button>
+                        </span>
+                    </p>
+
+                    <div class="searchRslt modalPopupLayerChildren noshow" id="searchListPop">
+                        <ul>
+                            <li>
+                                <a href="#">Chicken</a>
+                            </li>
+                            <li>
+                                <a href="#">Mutton</a>
+                            </li>
+                            <li>
+                                <a href="#">Fish</a>
+                            </li>
+                            <li>
+                                <a href="#">Keema</a>
+                            </li>
+                            <li>
+                                <a href="#">Boneless</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="menu">
+                    <a href="#">
+                        <i class="ico_help"></i>
+                        <span>Help</span>
+                    </a>
+                    <a href="#" id="myAccountActionText" class="noshow">
+                        <i class="ico_signin"></i>
+                        <span>My Account</span>
+                    </a>
+                    <a href="#loginpop" data-pop="modalpop" data-target="loginpop" class="authLogin modalPopupLayerParent" id="loginUserActionText"
+                        data-showoverlay="true">
+                        <i class="ico_signin"></i>
+                        <span>Sign In</span>
+                    </a>
+                    <a href="#" data-target="cartlist" class="modalPopupLayerParent" data-showoverlay="true">
+                        <i class="i_cart active" id="cartItemCount">0</i>
+                        <span>Cart</span>
+                    </a>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <ul id="categorytop" class="nav"></ul>
+        </div>
+        <!-- Header -->
+    </div>
     <!-- SLIDER -->
     <section id="homepagebanner" class="lazy slider topContent"></section>
     <div class="clear"></div>
@@ -337,7 +534,221 @@
     <!-- Testimonial -->
 
 
-    <div w3-include-html="footer.html"></div>
+    <div w3-include-html="footer.html">
+
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="ftr bgBlue">
+                <div class="main pad20 pall">
+                    <div class="clear20"></div>
+                    <div>
+                        <a href="#" class="logo"></a>
+                        <div class="media">
+                            <a href="#">
+                                <img src="images/logo_yourstory.png" />
+                            </a>
+                            <a href="#">
+                                <img src="images/logo_ettech.png" />
+                            </a>
+                            <a href="#">
+                                <img src="images/logo_mint.jpg" />
+                            </a>
+                            <a href="#">
+                                <img src="images/logo_hf.jpg" />
+                            </a>
+                            <a href="#">
+                                <img src="images/logo_et.png" />
+                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear30"></div>
+                    <div class="clear20"></div>
+                    <div class="dsplNBlock vaT mar20 mright">
+                        <ul class="lstNone">
+                            <li class="mar20 mbottom">
+                                <strong>CONTACT INFO</strong>
+                            </li>
+                            <li class="tgrey mar10 mbottom">2/55 Tower Street, New York, USA</li>
+                            <li class="tgrey mar10 mbottom">+91 9978909876</li>
+                            <li class="tgrey mar10 mbottom">contact@zappfresh.com</li>
+                            <li class="tgrey mar10 mbottom">www.zappfresh.com</li>
+                        </ul>
+                    </div>
+
+                    <div class="dsplNBlock vaT mar30 mright mleft">
+                        <ul class="lstNone">
+                            <li class="mar20 mbottom">
+                                <strong>QUICK LINKS</strong>
+                            </li>
+                            <li class="tgrey mar10 mbottom">
+                                <a href="about_us.html" class="tgrey">About Us</a>
+                            </li>
+                            <li class="tgrey mar10 mbottom">
+                                <a href="press.html" class="tgrey">Press</a>
+                            </li>
+                            <li class="tgrey mar10 mbottom">
+                                <a href="help.html" class="tgrey">Help</a>
+                            </li>
+                            <li class="tgrey mar10 mbottom">
+                                <a href="privacy_policy.html" class="tgrey">Privacy Policy</a>
+                            </li>
+                            <li class="tgrey mar10 mbottom">
+                                <a href="terms_and_conditions.html" class="tgrey">Terms &amp; Conditions</a>
+                            </li>
+                            <li class="tgrey mar10 mbottom">
+                                <a href="why_choose_us.html" class="tgrey">Why Choose Us</a>
+                            </li>
+                            <li class="tgrey mar10 mbottom">
+                                <a href="quality_measure.html" class="tgrey">Quality Measures</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="dsplNBlock vaT mar30 mright mleft">
+                        <ul class="lstNone">
+                            <li class="mar20 mbottom">
+                                <strong>OUR MENU</strong>
+                            </li>
+                            <li class="tgrey mar10 mbottom">
+                                <a href="#" class="tgrey">Chicken</a>
+                            </li>
+                            <li class="tgrey mar10 mbottom">
+                                <a href="#" class="tgrey">Mutton</a>
+                            </li>
+                            <li class="tgrey mar10 mbottom">
+                                <a href="#" class="tgrey">Seafoods</a>
+                            </li>
+                            <li class="tgrey mar10 mbottom">
+                                <a href="#" class="tgrey">Precooked Meat</a>
+                            </li>
+                            <li class="tgrey mar10 mbottom">
+                                <a href="#" class="tgrey">Cold Cuts</a>
+                            </li>
+                            <li class="tgrey mar10 mbottom">
+                                <a href="#" class="tgrey">Marinated</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="dsplNBlock vaT mar30 mright mleft">
+                        <ul class="lstNone">
+                            <li class="mar20 mbottom">
+                                <strong>CARD WE ACCEPT</strong>
+                            </li>
+                            <li class="tgrey mar10 mbottom">
+                                <img src="images/payment_network.jpg" class="dspBlock" />
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="dsplNBlock vaT mar150 mleft">
+                        <ul class="lstNone">
+                            <li class="mar20 mbottom">
+                                <strong>DOWNLOAD OUR APP</strong>
+                            </li>
+                            <li class="tgrey mar10 mbottom">
+                                <a href="#" target="_blank">
+                                    <img src="images/logo_appstore.jpg" />
+                                </a>
+                            </li>
+                            <li class="tgrey mar10 mbottom">
+                                <a href="#" target="_blank">
+                                    <img src="images/logo_android.jpg" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <strong class="mar20 mbottom dspBlock">POPULAR SEARCHES</strong>
+                    <hr />
+                    <div class="clear30"></div>
+                    <strong class="mar10 mbottom dspBlock">Chicken</strong>
+                    <p>
+                        <a href="#" class="bigTag">Chicken Breast (Boneless)</a>
+                        <a href="#" class="bigTag">Chicken (Skinless) - Curry Cut (Large)</a>
+                        <a href="#" class="bigTag">Chicken Drumsticks (Skinless)</a>
+                        <a href="#" class="bigTag">Chicken Mince/Keema</a>
+                        <a href="#" class="bigTag">Chicken Supreme</a>
+                    </p>
+                    <div class="clear20"></div>
+                    <hr />
+                    <div class="clear30"></div>
+                    <strong class="mar10 mbottom dspBlock">Red Meat</strong>
+                    <p>
+                        <a href="#" class="bigTag">Lamb Leg (Boneless)</a>
+                        <a href="#" class="bigTag">Lamb Shoulder - Curry Cut (Medium)</a>
+                        <a href="#" class="bigTag">Goat Mince/Keema</a>
+                        <a href="#" class="bigTag">Lamb Chops (Ribs)</a>
+                    </p>
+                    <div class="clear20"></div>
+                    <hr />
+                    <div class="clear30"></div>
+                    <strong class="mar10 mbottom dspBlock">Fish &amp; Seafood</strong>
+                    <p>
+                        <a href="#" class="bigTag">Anchovy Small (Whole - Cleaned & Gutted)</a>
+                        <a href="#" class="bigTag">Basa Fillet (Platinum Grade)</a>
+                        <a href="#" class="bigTag">Premium Grade Macherel (Cleaned)</a>
+                        <a href="#" class="bigTag">Sardine (Whole - Cleaned & Gutted)</a>
+                        <a href="#" class="bigTag">Freshwater Catla - Bengali </a>
+                    </p>
+                    <div class="clear20"></div>
+                    <hr />
+                    <div class="clear30"></div>
+                    <strong class="mar10 mbottom dspBlock">Marinades</strong>
+                    <p>
+                        <a href="#" class="bigTag">Amritsari Achari Murgh</a>
+                        <a href="#" class="bigTag">Caribbean Jerk Chicken (Boneless)</a>
+                        <a href="#" class="bigTag">Nagaland Chicken pops</a>
+                        <a href="#" class="bigTag">Chicken Tikka (Boneless)</a>
+                        <a href="#" class="bigTag">tawa Tandoori Chicken (no oven)</a>
+                    </p>
+
+                    <div class="clear30"></div>
+                    <hr />
+                    <div class="clear30"></div>
+
+                    <strong class="mar10 mbottom dspBlock tdarkGrey">We will sell only the meat that we would eat ourselves.</strong>
+                    <p class="tdarkGrey">
+                        At Zappfresh, weâ€™re big meat-lovers. And by big, we mean huge. So when it comes to the meat we put on your plate, weâ€™re
+                        extremely picky. Every single product is handpicked by a team with years of experience.
+                    </p>
+                    <div class="clear30"></div>
+
+                    <strong class="mar10 mbottom dspBlock tdarkGrey">If itâ€™s not fresh, we wonâ€™t sell it</strong>
+                    <p class="tdarkGrey">
+                        For meat to stay fresh and retain its natural juices, it needs to be stored at a temperature between 0Â° and 5Â°C. We maintain
+                        this temperature from the time we procure the product to cleaning, cutting and storing it, until
+                        it leaves for delivery. And even when itâ€™s out for delivery, we keep it chilled right up to your
+                        doorstep.Did we mention that weâ€™re obsessed?
+                    </p>
+                    <div class="clear30"></div>
+
+                    <strong class="mar10 mbottom dspBlock tdarkGrey">We will charge only for what you buy</strong>
+                    <p class="tdarkGrey">
+                        Doesnâ€™t everyone do this? Not really. Most other places first weigh the meat, then cut up the pieces, and throw out the
+                        parts which arenâ€™t fit to eat, such as offal, gizzard, wingtips, etc. But you still pay based on
+                        the original weight even though what you finally get is 10% to 30% less
+                    </p>
+                    <div class="clear30"></div>
+                    <hr />
+
+                    <div class="clear30"></div>
+                    <strong class="mar10 mbottom dspBlock tdarkGrey">&copy;2017 Delightful Gourmet Pvt Ltd. All Rights Reserved.</strong>
+                    <p class="tdarkGrey">
+                        Zappfresh is your one-stop fresh meat delivery shop. In here, you get nothing but the freshest meat & seafood, delivered
+                        straight to your doorstep. Now you can buy meat online anytime at your convenience. Indulge in our
+                        diverse selection: Chicken, Lamb, Seafood (Fish, Prawns, Crabs), Marinades & Cold Cuts. All our products
+                        are 100% Halal and completely natural and healthy. Once you've experienced Zappfreshhot de, you'll
+                        never go back to the old way of buying meat and seafood.
+                    </p>
+                    <div class="clear30"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+    </div>
 
     <script src="js/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
