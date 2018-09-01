@@ -1,0 +1,552 @@
+.green_strip {
+  background: #35acb0;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.topContent {
+  margin-top: 108px !important;
+}
+
+.hdrWrpr {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 3;
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  will-change: transform;
+  background: #ffffff;
+}
+.header {
+  padding: 15px 20px 5px;
+  background: #ffffff;
+}
+a.logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 110px;
+  height: 30px;
+  background: url(../images/zappfresh-logo.png) no-repeat center center;
+  margin: 0 10px 0 0;
+  background-size: auto 26px;
+}
+.header .menu {
+  display: inline-block;
+  vertical-align: middle;
+}
+.header .menu a {
+  display: inline-block;
+  color: #171a29;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0 20px;
+  position: relative;
+}
+.header .menu a i {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+  width: 20px;
+  height: 20px;
+}
+.header .menu a:hover span {
+  color: #cd181f;
+}
+.header .menu a span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.i_cart {
+  color: #171a29;
+  border: 1px solid #171a29;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 13px;
+  padding: 1px 0 0 0;
+  height: 17px !important;
+  background: #fff;
+}
+
+.i_cart:hover,
+.i_cart.active {
+  color: #ffffff !important;
+  border: 1px solid #f05a22;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 13px;
+  padding: 1px 0 0 0;
+  height: 17px !important;
+  background: #f05a22;
+}
+
+.i_location {
+  width: 17px;
+  height: 9px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url(../images/icon_sprite.png) no-repeat;
+  background-size: 280px auto;
+  background-position: 0px -9px;
+}
+.ico_search {
+  background: url(../images/icon_sprite.png) no-repeat;
+  background-size: 280px auto;
+  background-position: -52px 2px;
+}
+.ico_help {
+  background: url(../images/icon_sprite.png) no-repeat;
+  background-size: 280px auto;
+  background-position: -33px 2px;
+}
+.ico_signin {
+  background: url(../images/icon_sprite.png) no-repeat;
+  background-size: 280px auto;
+  background-position: -17px 2px;
+  width: 18px !important;
+}
+.ico_usp_1 {
+  background-position: -350px -6px !important;
+}
+.ico_usp_2 {
+  background-position: -405px -6px !important;
+}
+.ico_usp_3 {
+  background-position: -459px -6px !important;
+}
+.ico_usp_4 {
+  background-position: -513px -6px !important;
+}
+
+.header .menu a:hover .i_cart {
+  color: #171a29;
+  font-weight: 700;
+  font-style: normal;
+}
+.header .menu a:hover .i_location {
+  width: 17px;
+  height: 9px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url(../images/icon_sprite.png) no-repeat;
+  background-size: 280px auto;
+  background-position: 0px -9px;
+}
+.header .menu a:hover .ico_search {
+  background: url(../images/icon_sprite.png) no-repeat;
+  background-size: 280px auto;
+  background-position: -52px -17px;
+}
+.header .menu a:hover .ico_help {
+  background: url(../images/icon_sprite.png) no-repeat;
+  background-size: 280px auto;
+  background-position: -33px -17px;
+}
+.header .menu a:hover .ico_signin {
+  background: url(../images/icon_sprite.png) no-repeat;
+  background-size: 280px auto;
+  background-position: -17px -17px;
+  width: 18px !important;
+}
+
+.searchWrp {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  top: 2px;
+}
+.searchWrp .location {
+  color: #171a29;
+  font-size: 14px;
+  font-weight: 700;
+}
+.searchWrp .location span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 110px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.searchWrp .sdMnu {
+  position: absolute;
+  border: 1px solid #e9e9e9;
+  padding: 0;
+  border-radius: 4px;
+  top: 30px;
+  left: 0;
+  background: #ffffff;
+  z-index: 1;
+}
+.searchWrp .sdMnu ul {
+  list-style: none;
+}
+.searchWrp .sdMnu ul li {
+}
+.searchWrp .sdMnu ul li a {
+  color: #171a29;
+  font-size: 14px;
+  padding: 15px 35px;
+  display: block;
+}
+.searchWrp .sdMnu ul li a:hover {
+  background: #f1f1f1;
+  font-weight: 600;
+}
+
+.srchBar {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 120px 0 20px;
+  position: relative;
+}
+.srchBar p {
+  border: 1px solid #dcdada;
+  border-radius: 4px;
+}
+.srchBar p input {
+  border: none;
+  padding: 8px 20px;
+  min-width: 400px;
+  border-radius: 4px 0 0 4px;
+}
+.srchBar p span {
+  background: #f5f5f5;
+  display: inline-block;
+  vertical-align: top;
+  padding: 8px 10px 7px;
+  border-radius: 0 4px 4px 0;
+  border-left: 1px solid #dcdada;
+  box-sizing: border-box;
+}
+.srchBar p span button {
+  background: url(../images/icon_sprite.png) no-repeat;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-size: 300px auto;
+  background-position: -56px 1px;
+  border: none;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.searchRslt {
+  background: #ffffff;
+  border: 1px solid #dcdada;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  margin: 10px 0 0 0;
+  border-radius: 4px;
+}
+.searchRslt ul {
+  list-style: none;
+}
+.searchRslt ul li {
+  border-bottom: 1px solid #e9e9e9;
+}
+.searchRslt ul li:last-child {
+  border-bottom: none;
+}
+.searchRslt ul li a {
+  display: block;
+  padding: 15px 25px;
+  color: #171a29;
+}
+.searchRslt ul li a:hover {
+  background: #efefef;
+  font-weight: 600;
+}
+
+.nav {
+  box-shadow: 0 15px 40px -20px rgba(40, 44, 63, 0.35);
+}
+.nav li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav li a {
+  color: #171a29;
+  font-size: 13px;
+  padding: 15px 25px;
+  display: block;
+  text-transform: uppercase;
+}
+.nav li a:hover span,
+.nav li.active a span {
+  color: #cd181f;
+}
+.nav li.active a {
+}
+.nav li a i {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 30px;
+  margin: 0 5px 0 0;
+  background: url(../images/icon_sprite.png) no-repeat;
+  background-size: 330px auto;
+}
+.nav li a span {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 600;
+}
+.nav li a.chicken i {
+  background-position: 10px -43px;
+}
+.nav li a.mutton i {
+  background-position: 9px -64px;
+}
+.nav li a.seafood i {
+  background-position: 0px -85px;
+}
+.nav li a.pre i {
+  background-position: 7px -92px;
+  background-size: 290px auto;
+}
+.nav li a.coldcuts i {
+  background-position: 0px -128px;
+}
+.nav li a.marinated i {
+  background-position: 12px -150px;
+}
+
+.usp {
+  border: 1px solid #e9e9e9;
+  padding: 15px 25px;
+  background: #ffffff;
+  border-radius: 4px;
+  position: relative;
+  top: -10px;
+}
+.usp a {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 60px 0 0;
+  color: #cd181f;
+}
+.usp a:last-child {
+  margin: 0;
+}
+.usp i {
+  width: 55px;
+  height: 55px;
+  background: url(../images/icon_sprite.png) no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 20px 0 0;
+}
+.usp a span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px;
+}
+.usp a span strong {
+  display: block;
+  font-size: 15px;
+  margin: 0 0 8px;
+}
+.usp a span label {
+  display: block;
+  font-size: 12px;
+  color: #808080;
+}
+.usp a:hover {
+}
+
+/* Slider */
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+.slider .slick-list {
+}
+.slider button {
+}
+.slider .slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  height: 340px;
+}
+.slider .slick-slide img {
+  width: 100% !important;
+}
+.slider .slick-arrow {
+  position: absolute;
+  z-index: 2;
+  top: 170px;
+}
+.slider .slick-prev {
+  left: 20px;
+}
+.slider .slick-next {
+  right: 20px;
+}
+
+.slick-prev,
+.slick-next {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 100px;
+  box-shadow: none !important;
+  background: #ffffff !important;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 22px !important;
+  color: #808080 !important;
+  font-family: inherit !important;
+}
+
+.testimonial .slick-prev,
+.slick-next {
+  background: #f1f1f1 !important;
+}
+.testimonial {
+}
+.testimonial .slick-list {
+  float: left;
+}
+.testimonial .slick-track {
+  float: left;
+}
+.testimonial .slick-slide {
+  height: 100% !important;
+}
+.testimonial .slick-slide img {
+  width: 100% !important;
+}
+.testimonial .slick-arrow {
+  position: absolute;
+  z-index: 2;
+  top: 100px;
+}
+.testimonial .slick-prev {
+  left: 20px;
+}
+.testimonial .slick-next {
+  right: 20px;
+}
+.tstCntnt {
+  width: 970px !important;
+  padding: 60px 20px;
+  margin: 0 0 0 200px;
+  box-sizing: border-box;
+}
+
+.tstCntnt span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  margin: 0 20px 0 0;
+}
+.tstCntnt span img {
+  display: block;
+  border-radius: 100px;
+  height: 80px !important;
+}
+.tstCntnt p {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+}
+.tstCntnt p strong {
+  display: block;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+}
+.tstCntnt p label {
+  display: block;
+  color: #808080;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.media {
+  float: right;
+}
+.media a {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 30px 0 0;
+}
+.media a img {
+  display: block;
+  height: 60px;
+}
+
+.nwArvl {
+}
+.nwArvl .slick-list {
+  float: left;
+}
+.nwArvl .slick-track {
+  float: left;
+  overflow: hidden;
+  height: 370px;
+}
+.nwArvl .slick-slide {
+  height: 100%;
+}
+.nwArvl .pCard {
+  width: auto !important;
+  margin: 0 20px 0 0 !important;
+}
+
+.blg_cmpnt {
+  text-align: center;
+}
+.blg_cmpnt p {
+  display: inline-block;
+  vertical-align: top;
+  background: #ffffff;
+  border-radius: 4px;
+  width: 250px;
+  text-align: center;
+  padding: 0 0 20px 0;
+  box-shadow: 0 0 0 1px #eff1f5;
+  margin: 0 20px 0 0;
+  min-height: 316px;
+}
+.blg_cmpnt p img {
+  display: block;
+  border-radius: 4px 4px 0 0;
+  width: 100%;
+  height: 170px;
+}
+.blg_cmpnt p span {
+  display: block;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 11px;
+}
+.blg_cmpnt p strong {
+  display: block;
+  padding: 0 20px;
+  color: #404040;
+  height: 40px;
+}
+.blg_cmpnt p i {
+  display: block;
+  padding: 10px 20px;
+  font-style: normal;
+  font-size: 11px;
+}
+
+/* Slider */
+.error {
+  color: #ee4440;
+  font-size: 11px;
+}
