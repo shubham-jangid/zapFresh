@@ -109,6 +109,37 @@
   .header .menu a {
     padding: 0 10px;
   }
+  .header {
+    padding: 15px 20px 5px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  .srchBar {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px 0 20px;
+    position: relative;
+  }
+
+  .header .menu {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 5px;
+  }
+
+  .srchBar p input {
+    border: none;
+    padding: 8px 20px;
+    min-width: 300px;
+    border-radius: 4px 0 0 4px;
+  }
+
+  .nav {
+    box-shadow: 0 15px 40px -20px rgba(40, 44, 63, 0.35);
+    display: flex;
+    justify-content: center;
+  }
 
   .main {
     width: 900px;
@@ -159,13 +190,10 @@
   .mar30.mright {
     margin-right: 30px !important;
     width: 240px;
-    /* background: red; */
     margin-bottom: 20px;
   }
   .mar20.mright {
-    /* margin-right: 20px !important; */
     width: 240px;
-    /* background: red; */
     margin-left: 30px;
   }
   .bigTag {
