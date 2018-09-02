@@ -1,1 +1,164 @@
 
+@media screen and (max-width: 720px) {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px 20px 20px;
+  }
+  .header .menu {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 5px;
+    order: 3 !important;
+    display: flex !important;
+    justify-content: space-around !important;
+  }
+  .searchWrp {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    top: 2px;
+    flex: 1 !important ;
+    margin-right: 0 !important;
+  }
+
+  .logo {
+    display: block;
+    flex: 1 !important;
+  }
+  .searchWrp {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    top: 2px;
+    display: flex !important;
+    flex: 3.5 !important;
+    justify-content: flex-end !important;
+    margin-right: 100px;
+  }
+
+  .searchWrp {
+    flex: 4;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .srchBar p input {
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px 0 0 4px;
+    border: none;
+    width: calc(100% - 85px) !important;
+    min-width: 0px !important;
+  }
+
+  .nav {
+    box-shadow: 0 15px 40px -20px rgba(40, 44, 63, 0.35);
+    display: flex;
+    justify-content: start !important;
+  }
+
+  .header .menu {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px !important;
+  }
+  .srchBar {
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+  .srchBar p input {
+    border: none;
+    width: 593px;
+  }
+
+  .header .menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #categorytop {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    height: auto;
+    overflow-x: auto;
+  }
+
+  .nav li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 183px;
+    flex: 0 0 auto;
+  }
+
+  /* header  */
+
+  .main {
+    width: 400px !important;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .main_ctnr {
+    margin: 50px auto !important;
+    padding-right: 0;
+    padding-left: 0%;
+    width: 400px !important;
+  }
+  .media {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .media a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 !important;
+  }
+  .pCard h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .searchWrp {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    top: 2px;
+    display: flex !important;
+    flex: 1.5 !important;
+    justify-content: flex-end !important;
+    margin-right: 100px;
+  }
+  .pCard h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .main {
+    width: 300px !important;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .main_ctnr {
+    margin: 50px auto !important;
+    padding-right: 0;
+    padding-left: 0%;
+    width: 300px !important;
+  }
+  .usp a {
+    margin: 0 10px;
+    padding: 15px 20px !important;
+  }
+}
