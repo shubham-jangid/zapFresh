@@ -1,5 +1,84 @@
 @media screen and (max-width: 1000px) {
+  .header {
+    padding: 15px 20px 5px;
+    background: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+  }
+  .searchWrp {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    top: 2px;
+    margin-right: 100px;
+  }
+  .srchBar {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px 0 20px;
+    position: relative;
+    order: 3;
+    margin-top: 13px;
+  }
+  .srchBar p input {
+    border: none;
+    padding: 8px 20px;
+    /* min-width: 450px; */
+    border-radius: 4px 0 0 4px;
+  }
+
+  .main {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .usp a {
+    margin: 0 10px;
+    padding: 10px 73px;
+  }
+  .pCard a img {
+    height: 140px;
+  }
+
+  .media a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 30px 0 0;
+    margin: 0px 20px;
+  }
 }
 
 @media screen and (max-width: 870px) {
+  .nav {
+    box-shadow: 0 15px 40px -20px rgba(40, 44, 63, 0.35);
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .nav li a {
+    color: #171a29;
+    font-size: 13px;
+    padding: 15px 5px;
+    display: block;
+    text-transform: uppercase;
+  }
+  .main {
+    width: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .usp a {
+    margin: 0 10px;
+    padding: 10px 35px;
+  }
+
+  .media a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 30px 0 0;
+  }
 }

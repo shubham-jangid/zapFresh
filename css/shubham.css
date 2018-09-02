@@ -1,4 +1,4 @@
-@media screen and (min-width: 1100px) and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .header {
     padding: 15px 20px 5px;
     background: #ffffff;
@@ -105,7 +105,7 @@
   }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
   .header .menu a {
     padding: 0 10px;
   }
@@ -181,6 +181,9 @@
   .pCard a {
     display: block;
     margin: 30px 10px;
+  }
+  .pCard a img {
+    height: 140px;
   }
 
   .blg_cmpnt p {
