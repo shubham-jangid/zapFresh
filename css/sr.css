@@ -91,4 +91,22 @@
     font-size: 20px;
     margin: 0;
   }
+
+  .main {
+    width: 300px !important;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .main_ctnr {
+    margin: 50px auto !important;
+    padding-right: 0;
+    padding-left: 0%;
+    width: 300px !important;
+  }
+  .usp a {
+    margin: 0 10px;
+    padding: 15px 20px !important;
+  }
 }
